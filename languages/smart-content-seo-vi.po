@@ -1,0 +1,1375 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Content SEO\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: smart-content-seo\n"
+
+#. Plugin Name of the plugin
+#: smart-content-seo.php
+msgid "Smart Content SEO"
+msgstr "Smart Content SEO"
+
+#. Description of the plugin
+#: smart-content-seo.php
+msgid ""
+"Write posts as usual (or let AI write them with free photos), then let AI "
+"(Claude, ChatGPT or Gemini) turn them into visually designed articles with "
+"their own HTML/CSS. Edit by leaving comments for the AI."
+msgstr ""
+"Viết bài như thường lệ (hoặc để AI viết kèm ảnh miễn phí), rồi để AI "
+"(Claude, ChatGPT hoặc Gemini) chuyển thành bài có thiết kế trực quan với "
+"HTML/CSS riêng. Sửa bằng cách góp ý cho AI."
+
+#: includes/class-smc-admin.php:26 includes/class-smc-settings.php:76
+msgid "Smart Content: Settings"
+msgstr "Smart Content: Cài đặt"
+
+#: includes/class-smc-admin.php:149
+msgid ""
+"Enter the post <strong>title</strong> above and fill in the fields below. "
+"The AI first creates an outline for you to review and adjust, then writes "
+"the post and inserts free stock photos into the editor. When it is done, "
+"review the post and click <strong>Convert to Smart Content</strong>."
+msgstr ""
+"Nhập <strong>tiêu đề</strong> bài ở trên và điền các ô dưới đây. AI lên "
+"outline trước để bạn xem và chỉnh, sau đó mới viết bài và chèn ảnh miễn phí "
+"vào trình soạn thảo. Viết xong, xem lại rồi bấm <strong>Chuyển sang Smart "
+"Content</strong>."
+
+#: includes/class-smc-admin.php:151
+msgid "Post description"
+msgstr "Mô tả bài viết"
+
+#: includes/class-smc-admin.php:152
+msgid ""
+"What the post is about, who it is for, and what readers should do after "
+"reading. Add your business details if you want the AI to use them (prices, "
+"services, service area...)."
+msgstr ""
+"Bài nói về gì, viết cho ai đọc, đọc xong họ nên làm gì. Thêm thông tin riêng"
+" của doanh nghiệp nếu muốn AI dùng (giá, dịch vụ, khu vực...)."
+
+#: includes/class-smc-admin.php:154
+msgid "SEO keywords"
+msgstr "Từ khoá SEO"
+
+#: includes/class-smc-admin.php:155
+msgid "Main keyword, secondary keyword, ..."
+msgstr "Từ khoá chính, từ khoá phụ, ..."
+
+#: includes/class-smc-admin.php:157
+msgid "Length"
+msgstr "Độ dài"
+
+#: includes/class-smc-admin.php:165
+msgid ""
+"Prefer photos already in the Media Library when they suit the post (the AI "
+"looks at them and chooses), and only search free stock photos for the rest"
+msgstr ""
+"Ưu tiên dùng ảnh có sẵn trong Thư viện ảnh nếu phù hợp với bài (AI xem ảnh "
+"rồi chọn), thiếu mới tìm ảnh miễn phí"
+
+#: includes/class-smc-admin.php:167 assets/write.js:165
+msgid "Create outline"
+msgstr "Lên outline"
+
+#: includes/class-smc-admin.php:176
+msgid "Rebalance to the target length"
+msgstr "Chia lại cho đúng độ dài"
+
+#: includes/class-smc-admin.php:178
+msgid "+ Add section"
+msgstr "+ Thêm mục"
+
+#: includes/class-smc-admin.php:181
+msgid "Write post and insert photos"
+msgstr "Viết bài và chèn ảnh"
+
+#: includes/class-smc-admin.php:182
+msgid ""
+"Takes a few minutes. You can edit the outline (section titles, word counts, "
+"key points, photos) before writing."
+msgstr ""
+"Mất vài phút. Có thể sửa outline (tiêu đề mục, số chữ, ý chính, ảnh) trước "
+"khi viết."
+
+#: includes/class-smc-admin.php:187
+msgid "Insert the AI-written post into the editor"
+msgstr "Chèn bài AI đã viết vào trình soạn thảo"
+
+#: includes/class-smc-admin.php:191
+msgid "Photos in this post"
+msgstr "Ảnh trong bài"
+
+#: includes/class-smc-admin.php:191
+msgid "Refresh"
+msgstr "Làm mới"
+
+#: includes/class-smc-admin.php:192
+msgid ""
+"Click a photo to replace it with another free stock photo or a photo from "
+"the Media Library."
+msgstr "Bấm vào ảnh để đổi sang ảnh miễn phí khác hoặc ảnh trong Thư viện."
+
+#: includes/class-smc-admin.php:229
+msgid "Smart Content posts"
+msgstr "Danh sách bài Smart Content"
+
+#: includes/class-smc-admin.php:233
+msgid "Preview width"
+msgstr "Bề rộng xem trước"
+
+#: includes/class-smc-admin.php:234
+msgid "Desktop"
+msgstr "PC"
+
+#: includes/class-smc-admin.php:235
+msgid "Tablet"
+msgstr "Tablet"
+
+#: includes/class-smc-admin.php:236
+msgid "Mobile"
+msgstr "Mobile"
+
+#: includes/class-smc-admin.php:238
+msgid ""
+"Comment: highlight or click part of the post to pick what to change. Try it:"
+" click around as a reader would."
+msgstr ""
+"Góp ý: bôi đen hoặc bấm vào bài để chọn chỗ cần sửa. Dùng thử: bấm như người"
+" đọc."
+
+#: includes/class-smc-admin.php:239
+msgid "Comment"
+msgstr "Góp ý"
+
+#: includes/class-smc-admin.php:240
+msgid "Try it"
+msgstr "Dùng thử"
+
+#: includes/class-smc-admin.php:242
+msgid ""
+"The post content goes back to the version written in the editor before "
+"conversion"
+msgstr "Nội dung bài trở về bản viết bằng trình soạn thảo trước khi chuyển"
+
+#: includes/class-smc-admin.php:242 includes/class-smc-admin.php:341
+msgid "Revert to original post"
+msgstr "Chuyển về bài viết gốc"
+
+#: includes/class-smc-admin.php:243
+msgid "Title, categories, featured image, permalink"
+msgstr "Tiêu đề, danh mục, ảnh đại diện, đường dẫn"
+
+#: includes/class-smc-admin.php:243 includes/class-smc-admin.php:406
+msgid "Post details"
+msgstr "Thông tin bài"
+
+#: includes/class-smc-admin.php:244
+msgid "View post"
+msgstr "Xem bài"
+
+#: includes/class-smc-admin.php:246 assets/admin.js:150
+msgid "Schedule"
+msgstr "Lên lịch"
+
+#: includes/class-smc-admin.php:248
+msgid "Publish date and time"
+msgstr "Thời điểm đăng"
+
+#. translators: %s: site time zone, e.g. Asia/Ho_Chi_Minh.
+#: includes/class-smc-admin.php:253
+#, php-format
+msgid "In the site time zone (%s)."
+msgstr "Theo giờ của site (%s)."
+
+#: includes/class-smc-admin.php:256
+msgid "Schedule post"
+msgstr "Lên lịch đăng"
+
+#: includes/class-smc-admin.php:259 assets/admin.js:158
+msgid "Publish"
+msgstr "Đăng bài"
+
+#: includes/class-smc-admin.php:264
+msgid "Preview"
+msgstr "Xem trước"
+
+#: includes/class-smc-admin.php:265
+msgid "This can take a few minutes. Do not close this page."
+msgstr "Có thể mất vài phút. Đừng đóng trang này."
+
+#: includes/class-smc-admin.php:269
+msgid "Comments"
+msgstr "Góp ý"
+
+#: includes/class-smc-admin.php:270
+msgid "Design"
+msgstr "Thiết kế"
+
+#: includes/class-smc-admin.php:271
+msgid "Versions"
+msgstr "Phiên bản"
+
+#: includes/class-smc-admin.php:275
+msgid ""
+"Highlight text (or click part of the post), write a comment and click "
+"<strong>Add comment</strong>. Do this for each thing to change, then click "
+"<strong>Ask AI to revise all</strong>. To replace a photo: click the photo, "
+"then <strong>Replace photo</strong>."
+msgstr ""
+"Bôi đen chữ (hoặc bấm vào một phần của bài), viết góp ý rồi bấm <strong>Thêm"
+" góp ý</strong>. Làm vậy với từng chỗ cần sửa, xong bấm <strong>Yêu cầu AI "
+"sửa tất cả</strong>. Muốn đổi ảnh: bấm vào ảnh rồi bấm <strong>Đổi "
+"ảnh</strong>."
+
+#: includes/class-smc-admin.php:276
+msgid "Replace photo"
+msgstr "Đổi ảnh"
+
+#: includes/class-smc-admin.php:276
+msgid "Clear selection"
+msgstr "Bỏ chọn"
+
+#: includes/class-smc-admin.php:277
+msgid ""
+"For example: turn this part into a slider, make the heading stand out more, "
+"add a comparison table here."
+msgstr ""
+"Ví dụ: đổi đoạn này thành slider, làm tiêu đề nổi bật hơn, thêm bảng so sánh"
+" ở đây."
+
+#: includes/class-smc-admin.php:278
+msgid "Add comment"
+msgstr "Thêm góp ý"
+
+#: includes/class-smc-admin.php:280
+msgid "Ask AI to revise all"
+msgstr "Yêu cầu AI sửa tất cả"
+
+#: includes/class-smc-admin.php:286 includes/functions.php:12
+msgid "Primary color"
+msgstr "Màu chủ đạo"
+
+#: includes/class-smc-admin.php:289 includes/functions.php:13
+msgid "Accent color"
+msgstr "Màu phụ"
+
+#: includes/class-smc-admin.php:293
+msgid "Use the site colors again"
+msgstr "Dùng lại màu của site"
+
+#: includes/class-smc-admin.php:294
+msgid "Text handling"
+msgstr "Cách dùng chữ"
+
+#: includes/class-smc-admin.php:296
+msgid "Keep my wording, only restyle it"
+msgstr "Giữ nguyên chữ của tôi, chỉ trình bày lại"
+
+#: includes/class-smc-admin.php:297
+msgid "Let the AI rewrite and expand"
+msgstr "AI được viết lại và bổ sung"
+
+#: includes/class-smc-admin.php:299
+msgid "Design instructions (optional)"
+msgstr "Yêu cầu về thiết kế (tuỳ chọn)"
+
+#: includes/class-smc-admin.php:300
+msgid "For example: show the process as a timeline, end with a contact block."
+msgstr "Ví dụ: phần quy trình làm dạng timeline, cuối bài có khối liên hệ."
+
+#: includes/class-smc-admin.php:301 includes/class-smc-admin.php:364
+#: includes/class-smc-jobs.php:143 assets/admin.js:162 assets/editor.js:17
+msgid "Convert to Smart Content"
+msgstr "Chuyển sang Smart Content"
+
+#: includes/class-smc-admin.php:305
+msgid ""
+"Each time the AI creates or revises the post, a version is saved that you "
+"can restore."
+msgstr "Mỗi lần AI tạo hoặc sửa bài là một phiên bản, khôi phục lại được."
+
+#: includes/class-smc-admin.php:338
+msgid ""
+"The post content is edited in the Smart Content editor. Title, categories, "
+"featured image, publish date and so on are edited here as usual."
+msgstr ""
+"Nội dung bài sửa trong trình soạn Smart Content. Tiêu đề, danh mục, ảnh đại "
+"diện, ngày đăng... sửa ở đây như bài thường."
+
+#: includes/class-smc-admin.php:339
+msgid "Open Smart Content editor"
+msgstr "Mở trình soạn Smart Content"
+
+#: includes/class-smc-admin.php:351
+msgid "AI Writer (Smart Content)"
+msgstr "AI viết bài (Smart Content)"
+
+#: includes/class-smc-admin.php:363
+msgid ""
+"Once the post is written and has its photos, let the AI restyle it into a "
+"post with its own design."
+msgstr ""
+"Viết xong bài và chèn ảnh rồi thì để AI trình bày lại thành bài có thiết kế "
+"riêng."
+
+#: includes/class-smc-admin.php:365
+msgid "The post is saved before converting."
+msgstr "Bài được lưu trước khi chuyển."
+
+#: includes/class-smc-admin.php:375
+msgid ""
+"Revert to original post: the post content goes back to exactly the version "
+"written in the editor before conversion; the AI design and its versions are "
+"deleted. Continue?"
+msgstr ""
+"Chuyển về bài viết gốc: nội dung bài trở về đúng bản viết bằng trình soạn "
+"thảo trước khi chuyển; thiết kế của AI và các phiên bản bị xoá. Tiếp tục?"
+
+#: includes/class-smc-admin.php:387
+msgid "You are not allowed to edit this post."
+msgstr "Bạn không có quyền sửa bài này."
+
+#: includes/class-smc-admin.php:390
+msgid ""
+"The AI is working on this post. Wait until it finishes, then try again."
+msgstr "AI đang xử lý bài này, hãy chờ xong rồi thử lại."
+
+#: includes/class-smc-ai.php:63 includes/class-smc-ai.php:148
+#: includes/class-smc-writer.php:575
+msgid "The AI returned an invalid format. Please try again."
+msgstr "AI trả về sai định dạng. Hãy thử lại."
+
+#. translators: %s: the AI's own one-sentence summary.
+#: includes/class-smc-ai.php:154
+#, php-format
+msgid "The AI did not change anything. %s"
+msgstr "AI không thay đổi gì. %s"
+
+#: includes/class-smc-ai.php:165
+msgid ""
+"The AI could not locate the passage to change. Select the passage again and "
+"make your comment more specific."
+msgstr ""
+"AI không định vị được đúng chỗ cần sửa. Hãy chọn lại đoạn cần sửa và góp ý "
+"cụ thể hơn."
+
+#. translators: %s: AI provider name, e.g. Google Gemini.
+#: includes/class-smc-ai.php:317 includes/class-smc-rest.php:145
+#: includes/class-smc-rest.php:291 includes/class-smc-rest.php:310
+#, php-format
+msgid "No %s API key yet. Enter it in Smart Content > Settings."
+msgstr "Chưa có API key của %s. Vào Smart Content > Cài đặt để nhập."
+
+#. translators: 1: AI provider name, 2: error message.
+#: includes/class-smc-ai.php:386
+#, php-format
+msgid "Could not connect to %1$s: %2$s"
+msgstr "Không kết nối được tới %1$s: %2$s"
+
+#. translators: 1: AI provider name, 2: model id, 3: error message from the
+#. provider.
+#: includes/class-smc-ai.php:398
+#, php-format
+msgid ""
+"The %1$s API key is invalid or not allowed to use the model %2$s. (%3$s)"
+msgstr ""
+"API key của %1$s không hợp lệ hoặc không có quyền dùng model %2$s. (%3$s)"
+
+#. translators: 1: model id, 2: AI provider name, 3: error message from the
+#. provider.
+#: includes/class-smc-ai.php:401
+#, php-format
+msgid ""
+"The model %1$s does not exist at %2$s. Check the model name in Settings. "
+"(%3$s)"
+msgstr ""
+"Không có model %1$s ở %2$s. Kiểm tra lại tên model trong Cài đặt. (%3$s)"
+
+#. translators: 1: AI provider name, 2: error message from the provider.
+#: includes/class-smc-ai.php:404
+#, php-format
+msgid ""
+"Your %1$s account has hit a limit (rate limit or free quota). Please try "
+"again in a few minutes. (%2$s)"
+msgstr ""
+"Tài khoản %1$s đang chạm giới hạn (số lần gọi hoặc hạn mức miễn phí). Hãy "
+"thử lại sau ít phút. (%2$s)"
+
+#. translators: 1: AI provider name, 2: error message from the provider.
+#: includes/class-smc-ai.php:407
+#, php-format
+msgid "%1$s is overloaded. Please try again in a few minutes. (%2$s)"
+msgstr "Dịch vụ %1$s đang quá tải. Hãy thử lại sau ít phút. (%2$s)"
+
+#: includes/class-smc-ai.php:415
+msgid "The AI refused to process this content."
+msgstr "AI từ chối xử lý nội dung này."
+
+#: includes/class-smc-ai.php:418
+msgid ""
+"The post is too long, so the result was cut off. Shorten the content or "
+"split it into several posts."
+msgstr ""
+"Bài quá dài nên kết quả bị cắt giữa chừng. Hãy rút gọn nội dung hoặc chia "
+"thành nhiều bài."
+
+#: includes/class-smc-ai.php:421
+msgid "The AI returned no content. Please try again."
+msgstr "AI không trả về nội dung. Hãy thử lại."
+
+#: includes/class-smc-ai.php:476 includes/class-smc-ai.php:536
+msgid "Unknown error from the API."
+msgstr "Lỗi không rõ từ API."
+
+#: includes/class-smc-ai.php:534
+msgid "ChatGPT reported an error while processing."
+msgstr "ChatGPT báo lỗi khi xử lý."
+
+#: includes/class-smc-jobs.php:42
+msgid ""
+"The server stopped the task halfway (usually a hosting time limit). Please "
+"try again."
+msgstr ""
+"Tác vụ bị máy chủ dừng giữa chừng (thường do giới hạn thời gian chạy của "
+"hosting). Hãy thử lại."
+
+#. translators: %d: number of outline sections.
+#: includes/class-smc-jobs.php:117
+#, php-format
+msgid "Outline ready: %d section."
+msgid_plural "Outline ready: %d sections."
+msgstr[0] "Đã lên outline %d mục."
+
+#. translators: 1: number of words, 2: number of images.
+#: includes/class-smc-jobs.php:135
+#, php-format
+msgid "Wrote about %1$s words and inserted %2$d image."
+msgid_plural "Wrote about %1$s words and inserted %2$d images."
+msgstr[0] "Đã viết khoảng %1$s chữ, chèn %2$d ảnh."
+
+#: includes/class-smc-jobs.php:143 assets/admin.js:162
+msgid "Redesign"
+msgstr "Tạo lại thiết kế"
+
+#: includes/class-smc-jobs.php:146
+msgid "Revised from comments"
+msgstr "Sửa theo góp ý"
+
+#: includes/class-smc-list.php:54
+msgid "This post is displayed with Smart Content"
+msgstr "Bài đang hiển thị bằng Smart Content"
+
+#: includes/class-smc-list.php:79 assets/admin.js:206
+msgid "AI is working…"
+msgstr "AI đang xử lý…"
+
+#: includes/class-smc-list.php:81
+msgid "No design yet"
+msgstr "Chưa có thiết kế"
+
+#: includes/class-smc-list.php:83
+msgid "New design awaiting review"
+msgstr "Có thiết kế mới chưa duyệt"
+
+#: includes/class-smc-list.php:85
+msgid "✓ Live"
+msgstr "✓ Đang dùng"
+
+#: includes/class-smc-list.php:91
+msgid "Written by AI"
+msgstr "AI đã viết"
+
+#. translators: %s: approximate number of words in the post.
+#: includes/class-smc-list.php:93
+#, php-format
+msgid "~%s word, not converted"
+msgid_plural "~%s words, not converted"
+msgstr[0] "~%s chữ, chưa chuyển"
+
+#: includes/class-smc-list.php:96
+msgid "Outline ready"
+msgstr "Đã lên outline"
+
+#: includes/class-smc-list.php:147
+msgid "Written by AI, not converted"
+msgstr "AI đã viết, chưa chuyển"
+
+#: includes/class-smc-posts.php:175 includes/class-smc-rest.php:375
+msgid "The new image is not valid."
+msgstr "Ảnh mới không hợp lệ."
+
+#: includes/class-smc-posts.php:179
+msgid "The old image was not found in the post."
+msgstr "Không tìm thấy ảnh cũ trong bài."
+
+#: includes/class-smc-posts.php:192
+msgid "Image replaced"
+msgstr "Đổi ảnh"
+
+#: includes/class-smc-posts.php:273 includes/class-smc-rest.php:273
+#: assets/editor.js:39 assets/editor.js:57
+msgid "The post has no content yet."
+msgstr "Bài chưa có nội dung."
+
+#: includes/class-smc-posts.php:308
+msgid "The scheduled time must be in the future."
+msgstr "Thời điểm lên lịch phải ở tương lai."
+
+#: includes/class-smc-posts.php:338
+msgid "This post has no original version to revert to."
+msgstr "Bài này không có bản gốc để trở về."
+
+#: includes/class-smc-render.php:54 assets/picker.js:45 assets/write.js:428
+msgid "Close"
+msgstr "Đóng"
+
+#: includes/class-smc-render.php:55
+msgid "Previous"
+msgstr "Trước"
+
+#: includes/class-smc-render.php:56
+msgid "Next"
+msgstr "Sau"
+
+#: includes/class-smc-rest.php:55 includes/class-smc-rest.php:63
+msgid "Post not found."
+msgstr "Không tìm thấy bài này."
+
+#: includes/class-smc-rest.php:66
+msgid ""
+"This post is already Smart Content. Revert it to the original post before "
+"letting the AI rewrite it."
+msgstr "Bài đã là Smart Content. Muốn AI viết lại thì bỏ Smart Content trước."
+
+#: includes/class-smc-rest.php:148 includes/class-smc-rest.php:182
+#: includes/class-smc-rest.php:199 includes/class-smc-rest.php:294
+#: includes/class-smc-rest.php:313
+msgid "The AI is working on this post. Please wait until it finishes."
+msgstr "AI đang xử lý bài này, hãy chờ xong."
+
+#: includes/class-smc-rest.php:160
+msgid "The post has no content yet. Write it in the editor first."
+msgstr "Bài chưa có nội dung. Hãy viết bài bằng trình soạn thảo trước."
+
+#: includes/class-smc-rest.php:196
+msgid "The post has no content to revise."
+msgstr "Bài chưa có nội dung để sửa."
+
+#: includes/class-smc-rest.php:213
+msgid "No comments yet."
+msgstr "Chưa có góp ý nào."
+
+#: includes/class-smc-rest.php:231 includes/class-smc-rest.php:240
+msgid "Task not found."
+msgstr "Không tìm thấy tác vụ."
+
+#: includes/class-smc-rest.php:252
+msgid "Version not found."
+msgstr "Không tìm thấy phiên bản này."
+
+#: includes/class-smc-rest.php:298 includes/class-smc-rest.php:323
+msgid "Enter the post title first."
+msgstr "Hãy nhập tiêu đề bài trước."
+
+#: includes/class-smc-rest.php:326
+msgid "The outline has no sections."
+msgstr "Outline chưa có mục nào."
+
+#: includes/class-smc-rest.php:358
+msgid "You are not allowed to add images to this post."
+msgstr "Không có quyền thêm ảnh vào bài này."
+
+#: includes/class-smc-settings.php:80
+msgid "AI connection"
+msgstr "Kết nối AI"
+
+#: includes/class-smc-settings.php:83
+msgid "AI provider"
+msgstr "Dùng AI của"
+
+#: includes/class-smc-settings.php:90
+msgid ""
+"Post content and the photos you choose are sent to this provider for "
+"processing; usage is billed to the account of the key."
+msgstr ""
+"Nội dung bài và ảnh bạn chọn được gửi tới nhà cung cấp này để xử lý; chi phí"
+" tính vào tài khoản của key."
+
+#. translators: %s: AI provider name, e.g. Google Gemini.
+#: includes/class-smc-settings.php:101
+#, php-format
+msgid "%s API key"
+msgstr "API key của %s"
+
+#. translators: %s: PHP constant name, e.g. SMC_API_KEY.
+#: includes/class-smc-settings.php:109 includes/class-smc-settings.php:177
+#, php-format
+msgid "Using the key defined in <code>wp-config.php</code> (<code>%s</code>)."
+msgstr ""
+"Đang dùng key khai báo trong <code>wp-config.php</code> (<code>%s</code>)."
+
+#: includes/class-smc-settings.php:114 includes/class-smc-settings.php:182
+msgid "Saved. Leave empty to keep it."
+msgstr "Đã lưu. Để trống nếu không đổi."
+
+#: includes/class-smc-settings.php:114
+msgid "Paste your API key here"
+msgstr "Dán API key vào đây"
+
+#: includes/class-smc-settings.php:116 includes/class-smc-settings.php:184
+msgid "Delete saved key"
+msgstr "Xoá key đã lưu"
+
+#. translators: %s: link to the provider page where the API key is created.
+#: includes/class-smc-settings.php:122
+#, php-format
+msgid "Get a key at %s."
+msgstr "Lấy key tại %s."
+
+#: includes/class-smc-settings.php:132
+msgid "Model"
+msgstr "Mô hình"
+
+#: includes/class-smc-settings.php:149
+msgid "When a new model comes out, type its exact model ID here."
+msgstr "Có model mới thì gõ đúng mã model vào đây."
+
+#: includes/class-smc-settings.php:157
+msgid "Reasoning effort"
+msgstr "Mức đầu tư suy nghĩ"
+
+#: includes/class-smc-settings.php:160
+msgid "Low (faster, cheaper)"
+msgstr "Thấp (nhanh, rẻ)"
+
+#: includes/class-smc-settings.php:161
+msgid "Medium"
+msgstr "Vừa"
+
+#: includes/class-smc-settings.php:162
+msgid "High (slower, costs more)"
+msgstr "Cao (chậm, tốn hơn)"
+
+#: includes/class-smc-settings.php:168
+msgid "Free stock photos for AI-written posts"
+msgstr "Ảnh miễn phí cho bài AI viết"
+
+#: includes/class-smc-settings.php:171
+msgid "Pexels API key"
+msgstr "API key của Pexels"
+
+#: includes/class-smc-settings.php:182
+msgid "Optional"
+msgstr "Không bắt buộc"
+
+#. translators: %s: link to pexels.com/api.
+#: includes/class-smc-settings.php:190
+#, php-format
+msgid ""
+"Recommended: Pexels has far more and better photos. Get a free key at %s."
+msgstr ""
+"Nên có: ảnh trên Pexels đẹp và nhiều hơn hẳn. Lấy key miễn phí tại %s."
+
+#: includes/class-smc-settings.php:194
+msgid ""
+"Without a key the plugin searches Openverse and only takes CC0 and public "
+"domain photos (free to use, no attribution required)."
+msgstr ""
+"Không có key thì plugin tìm ảnh trên Openverse, chỉ lấy ảnh CC0 và phạm vi "
+"công cộng (dùng tự do, không bắt buộc ghi nguồn)."
+
+#: includes/class-smc-settings.php:195
+msgid ""
+"Photos are downloaded to the site's Media Library; the author and source are"
+" noted in the photo description."
+msgstr ""
+"Ảnh được tải về Thư viện ảnh của site; tên tác giả và nguồn ghi trong phần "
+"mô tả của ảnh."
+
+#: includes/class-smc-settings.php:202
+msgid "Site style"
+msgstr "Phong cách của site"
+
+#: includes/class-smc-settings.php:204
+msgid ""
+"The AI uses these values so posts match the site design. Changing them here "
+"updates every published Smart Content post."
+msgstr ""
+"AI dùng các giá trị này để bài hợp với giao diện site. Đổi ở đây thì mọi bài"
+" Smart Content đã đăng đổi theo."
+
+#: includes/class-smc-settings.php:205
+msgid "Detect from site"
+msgstr "Dò tự động từ site"
+
+#: includes/class-smc-settings.php:222
+msgid "Content column width (px)"
+msgstr "Bề rộng cột nội dung (px)"
+
+#: includes/class-smc-settings.php:226
+msgid "Style description"
+msgstr "Mô tả phong cách"
+
+#: includes/class-smc-settings.php:228
+msgid ""
+"For example: minimal, lots of white space, square corners, no shadows. "
+"Friendly tone."
+msgstr ""
+"Ví dụ: tối giản, nhiều khoảng trắng, góc vuông, không dùng đổ bóng. Giọng "
+"văn thân thiện."
+
+#: includes/class-smc-settings.php:229
+msgid ""
+"Optional. A few sentences about the site's design taste; the AI will follow "
+"it."
+msgstr "Tuỳ chọn. Một vài câu về gu thiết kế của site, AI sẽ theo."
+
+#. translators: %s: error message.
+#: includes/class-smc-stock.php:47
+#, php-format
+msgid "Could not connect to the photo source: %s"
+msgstr "Không kết nối được tới nguồn ảnh: %s"
+
+#: includes/class-smc-stock.php:51
+msgid "The photo source refused access. Check the Pexels key in Settings."
+msgstr "Nguồn ảnh từ chối truy cập. Kiểm tra lại key Pexels trong Cài đặt."
+
+#: includes/class-smc-stock.php:54
+msgid ""
+"The photo source is rate limiting searches. Please try again in a few "
+"minutes."
+msgstr "Nguồn ảnh đang giới hạn số lần tìm. Hãy thử lại sau ít phút."
+
+#. translators: %d: HTTP status code.
+#: includes/class-smc-stock.php:59
+#, php-format
+msgid "The photo source returned error %d."
+msgstr "Nguồn ảnh báo lỗi %d."
+
+#: includes/class-smc-stock.php:151
+msgid "Invalid photo."
+msgstr "Ảnh không hợp lệ."
+
+#: includes/class-smc-stock.php:186
+msgid "This photo cannot be downloaded."
+msgstr "Ảnh này không tải được."
+
+#. translators: %s: photo source, Pexels or Openverse.
+#: includes/class-smc-stock.php:206
+#, php-format
+msgid "Could not download the photo from %s."
+msgstr "Không tải được ảnh từ %s."
+
+#: includes/class-smc-stock.php:217
+msgid "The downloaded file is not a JPG, PNG or WebP image."
+msgstr "Tệp tải về không phải ảnh JPG, PNG hoặc WebP."
+
+#. translators: 1: photographer name, 2: photo source (Pexels or Openverse),
+#. 3: license, 4: link to the photo page.
+#: includes/class-smc-stock.php:224
+#, php-format
+msgid "Photo: %1$s / %2$s (%3$s) %4$s"
+msgstr "Ảnh: %1$s / %2$s (%3$s) %4$s"
+
+#: includes/class-smc-stock.php:225
+msgid "unknown author"
+msgstr "không rõ tác giả"
+
+#: includes/class-smc-writer.php:182
+msgid "The AI returned an invalid outline. Please try again."
+msgstr "AI trả về outline sai định dạng. Hãy thử lại."
+
+#: includes/class-smc-writer.php:335 assets/write.js:23
+msgid "Introduction"
+msgstr "Mở bài"
+
+#. translators: 1: current photo number, 2: total number of photos.
+#: includes/class-smc-writer.php:407
+#, php-format
+msgid "Finding and downloading free stock photos (%1$d/%2$d)…"
+msgstr "Đang tìm và tải ảnh miễn phí (%1$d/%2$d)…"
+
+#: includes/class-smc-writer.php:418
+msgid "The AI is writing the post…"
+msgstr "AI đang viết bài…"
+
+#: includes/class-smc-writer.php:456
+msgid "The AI returned an empty post. Please try again."
+msgstr "AI trả về bài rỗng. Hãy thử lại."
+
+#: includes/functions.php:14
+msgid "Text color"
+msgstr "Màu chữ"
+
+#: includes/functions.php:15
+msgid "Page background"
+msgstr "Màu nền trang"
+
+#: includes/functions.php:16
+msgid "Muted text color"
+msgstr "Màu chữ phụ"
+
+#: includes/functions.php:17
+msgid "Block background"
+msgstr "Màu nền khối"
+
+#: includes/functions.php:18
+msgid "Border color"
+msgstr "Màu viền"
+
+#: includes/functions.php:19
+msgid "Corner radius"
+msgstr "Bo góc"
+
+#: includes/functions.php:20
+msgid "Heading font"
+msgstr "Font tiêu đề"
+
+#: includes/functions.php:21
+msgid "Body font"
+msgstr "Font nội dung"
+
+#: includes/functions.php:37
+msgid "Claude Opus 5.5 (highest quality)"
+msgstr "Claude Opus 5.5 (chất lượng cao nhất)"
+
+#: includes/functions.php:38
+msgid "Claude Sonnet 5.5 (faster and cheaper)"
+msgstr "Claude Sonnet 5.5 (nhanh và rẻ hơn)"
+
+#: includes/functions.php:39
+msgid "Claude Haiku 5.5 (cheapest)"
+msgstr "Claude Haiku 5.5 (rẻ nhất)"
+
+#: includes/functions.php:43 includes/functions.php:57
+msgid "Pay as you go; you need to buy credit first."
+msgstr "Trả theo lượng dùng, cần nạp credit trước."
+
+#: includes/functions.php:51
+msgid "GPT-6 Astra (highest quality)"
+msgstr "GPT-6 Astra (chất lượng cao nhất)"
+
+#: includes/functions.php:52
+msgid "GPT-6.1 Sol (balanced quality and price)"
+msgstr "GPT-6.1 Sol (cân bằng chất lượng và giá)"
+
+#: includes/functions.php:53
+msgid "GPT-6 Luna (cheapest)"
+msgstr "GPT-6 Luna (rẻ nhất)"
+
+#: includes/functions.php:65
+msgid "Gemini 4 Argon (highest quality, paid)"
+msgstr "Gemini 4 Argon (chất lượng cao nhất, trả phí)"
+
+#: includes/functions.php:66
+msgid "Gemini 3.1 Pro Preview (paid)"
+msgstr "Gemini 3.1 Pro Preview (trả phí)"
+
+#: includes/functions.php:67
+msgid "Gemini 3.8 Flash (free tier available)"
+msgstr "Gemini 3.8 Flash (có gói miễn phí)"
+
+#: includes/functions.php:68
+msgid "Gemini 3.6 Flash (free tier available)"
+msgstr "Gemini 3.6 Flash (có gói miễn phí)"
+
+#: includes/functions.php:69
+msgid "Gemini 3.5 Flash-Lite (free tier available, fastest)"
+msgstr "Gemini 3.5 Flash-Lite (có gói miễn phí, nhanh nhất)"
+
+#: includes/functions.php:73
+msgid ""
+"Flash models have a free tier (rate limited; on the free tier Google may use"
+" the data you send to improve its products). Pro and Argon are paid only."
+msgstr ""
+"Model Flash có gói miễn phí (giới hạn số lần gọi; ở gói miễn phí Google có "
+"thể dùng dữ liệu gửi lên để cải thiện sản phẩm). Pro và Argon chỉ có gói trả"
+" phí."
+
+#. translators: %s: number of words, e.g. 1,800.
+#: includes/functions.php:152
+#, php-format
+msgid "~%s words"
+msgstr "~%s chữ"
+
+#. translators: %d: HTTP status code.
+#: assets/admin.js:46 assets/picker.js:24 assets/write.js:44
+#, js-format
+msgid "The server returned error %d."
+msgstr "Máy chủ báo lỗi %d."
+
+#: assets/admin.js:99
+msgid "Whole post"
+msgstr "Cả bài"
+
+#: assets/admin.js:100
+msgid "Remove"
+msgstr "Xoá"
+
+#. translators: %d: number of comments.
+#: assets/admin.js:105
+#, js-format
+msgid "Ask AI to revise all (%d)"
+msgstr "Yêu cầu AI sửa tất cả (%d)"
+
+#: assets/admin.js:105
+msgid "Ask AI to revise"
+msgstr "Yêu cầu AI sửa"
+
+#. translators: %s: alt text of the selected image.
+#: assets/admin.js:115
+#, js-format
+msgid "image \"%s\""
+msgstr "ảnh \"%s\""
+
+#: assets/admin.js:115
+msgid "image"
+msgstr "ảnh"
+
+#. translators: %s: the selected text or element.
+#: assets/admin.js:118
+#, js-format
+msgid "Selected: %s"
+msgstr "Đang chọn: %s"
+
+#: assets/admin.js:129
+msgid "Replacing image…"
+msgstr "Đang đổi ảnh…"
+
+#: assets/admin.js:134
+msgid "Image replaced. Click Update post to put it on the site."
+msgstr "Đã đổi ảnh. Bấm Cập nhật bài để đưa ra site."
+
+#: assets/admin.js:134 assets/write.js:406
+msgid "Image replaced."
+msgstr "Đã đổi ảnh."
+
+#: assets/admin.js:143
+msgid "(No title)"
+msgstr "(Chưa có tiêu đề)"
+
+#: assets/admin.js:150
+msgid "Reschedule"
+msgstr "Đổi lịch"
+
+#: assets/admin.js:152
+msgid "Showing the original post"
+msgstr "Đang hiện bài gốc"
+
+#: assets/admin.js:152
+msgid "Unpublished changes"
+msgstr "Có thay đổi chưa cập nhật"
+
+#: assets/admin.js:152
+msgid "Published"
+msgstr "Đã đăng"
+
+#: assets/admin.js:153
+msgid "Update post"
+msgstr "Cập nhật bài"
+
+#. translators: %s: scheduled date and time.
+#: assets/admin.js:157
+#, js-format
+msgid "Scheduled: %s"
+msgstr "Đã lên lịch: %s"
+
+#: assets/admin.js:157
+msgid "Draft"
+msgstr "Bản nháp"
+
+#: assets/admin.js:158
+msgid "Publish now"
+msgstr "Đăng ngay"
+
+#: assets/admin.js:166
+msgid ""
+"Color changes apply instantly. Redesign makes the AI start again from your "
+"original post, so changes made through comments are lost (the old version "
+"stays in the Versions tab)."
+msgstr ""
+"Đổi màu là bài đổi ngay. Tạo lại thiết kế thì AI làm lại từ bài gốc của bạn,"
+" các chỗ đã sửa bằng góp ý sẽ mất (bản cũ vẫn nằm trong tab Phiên bản)."
+
+#: assets/admin.js:167
+msgid ""
+"The AI reads the post and images you wrote, then presents them as an article"
+" with its own design. Your original post is kept, so you can go back at any "
+"time."
+msgstr ""
+"AI đọc bài và ảnh bạn đã viết, rồi trình bày lại thành bài có thiết kế "
+"riêng. Bài gốc được giữ lại, trở về lúc nào cũng được."
+
+#: assets/admin.js:171
+msgid "Current"
+msgstr "Hiện tại"
+
+#: assets/admin.js:171
+msgid "Restore"
+msgstr "Khôi phục"
+
+#: assets/admin.js:172
+msgid "No versions yet."
+msgstr "Chưa có phiên bản nào."
+
+#. translators: %s: error message.
+#: assets/admin.js:222 assets/write.js:312
+#, js-format
+msgid "The server could not run the task: %s"
+msgstr "Máy chủ không chạy được tác vụ: %s"
+
+#. translators: %s: number of characters written so far.
+#: assets/admin.js:228
+#, js-format
+msgid "AI is writing… %s characters"
+msgstr "AI đang viết… %s ký tự"
+
+#: assets/admin.js:228
+msgid "AI is reading the post and planning the layout…"
+msgstr "AI đang đọc bài và lên bố cục…"
+
+#: assets/admin.js:233 assets/write.js:322
+msgid "Something went wrong while processing."
+msgstr "Có lỗi khi xử lý."
+
+#. translators: %s: summary of the changes the AI made.
+#: assets/admin.js:239
+#, js-format
+msgid "Revised: %s"
+msgstr "Đã sửa: %s"
+
+#: assets/admin.js:241
+msgid ""
+"The post is now Smart Content. Highlight anything you want changed to leave "
+"a comment, or publish the post."
+msgstr ""
+"Bài đã thành Smart Content. Bôi đen chỗ cần sửa để góp ý, hoặc đăng bài."
+
+#: assets/admin.js:253 assets/write.js:338
+msgid "No API key yet. Go to Smart Content > Settings to add one."
+msgstr "Chưa có API key. Vào Smart Content > Cài đặt để nhập."
+
+#: assets/admin.js:254
+msgid ""
+"The AI will redesign from the original post. Changes made through comments "
+"will be lost; the current version stays in the Versions tab. Continue?"
+msgstr ""
+"AI sẽ thiết kế lại từ bài gốc. Các chỗ đã sửa bằng góp ý sẽ mất, bản hiện "
+"tại vẫn nằm trong tab Phiên bản. Tiếp tục?"
+
+#: assets/admin.js:256 assets/admin.js:295 assets/write.js:340
+msgid "Sending…"
+msgstr "Đang gửi…"
+
+#: assets/admin.js:269
+msgid ""
+"Revert to original post: the post content goes back to exactly what was "
+"written in the editor before converting; the AI design and its versions are "
+"deleted. Continue?"
+msgstr ""
+"Chuyển về bài viết gốc: nội dung bài trở về đúng bản viết bằng trình soạn "
+"thảo trước khi chuyển; thiết kế của AI và các phiên bản bị xoá. Tiếp tục?"
+
+#: assets/admin.js:270
+msgid "Reverting to the original post…"
+msgstr "Đang chuyển về bài viết gốc…"
+
+#. translators: %d: number of comments not yet sent.
+#: assets/admin.js:306
+#, js-format
+msgid "%d comment has not been sent to the AI yet. Continue anyway?"
+msgid_plural "%d comments have not been sent to the AI yet. Continue anyway?"
+msgstr[0] "Còn %d góp ý chưa gửi cho AI. Vẫn tiếp tục?"
+
+#: assets/admin.js:308
+msgid "Scheduling…"
+msgstr "Đang lên lịch…"
+
+#: assets/admin.js:308
+msgid "Publishing…"
+msgstr "Đang đăng…"
+
+#. translators: %s: scheduled date and time.
+#: assets/admin.js:315
+#, js-format
+msgid "The post will be published automatically at %s."
+msgstr "Bài sẽ tự đăng lúc %s."
+
+#: assets/admin.js:315
+msgid "The post on the site has been updated."
+msgstr "Bài trên site đã được cập nhật."
+
+#: assets/admin.js:315
+msgid "The post has been published."
+msgstr "Bài đã được đăng."
+
+#: assets/admin.js:376
+msgid "Version restored. Click Update post to put it on the site."
+msgstr "Đã khôi phục phiên bản. Bấm Cập nhật bài để đưa ra site."
+
+#: assets/admin.js:376
+msgid "Version restored."
+msgstr "Đã khôi phục phiên bản."
+
+#: assets/editor.js:26
+msgid ""
+"This post is live on the site and has unsaved changes. Save (update the "
+"post) and then convert to Smart Content?"
+msgstr ""
+"Bài đang hiện trên site và có thay đổi chưa lưu. Lưu (cập nhật bài) rồi "
+"chuyển sang Smart Content?"
+
+#: assets/editor.js:44
+msgid "Saving the post…"
+msgstr "Đang lưu bài…"
+
+#: assets/editor.js:48
+msgid "Could not save the post. Save it, then click again."
+msgstr "Không lưu được bài. Hãy lưu bài rồi bấm lại."
+
+#: assets/picker.js:44 assets/picker.js:45
+msgid "Replace image"
+msgstr "Đổi ảnh"
+
+#: assets/picker.js:46
+msgid "Search photos, e.g. modern house facade"
+msgstr "Tìm ảnh, ví dụ: modern house facade"
+
+#: assets/picker.js:48
+msgid "Search"
+msgstr "Tìm"
+
+#: assets/picker.js:49
+msgid ""
+"Free photos, fine for commercial use. Searching in English usually finds "
+"more photos."
+msgstr ""
+"Ảnh miễn phí, dùng được cho mục đích thương mại. Tìm bằng tiếng Anh thường "
+"ra nhiều ảnh hơn."
+
+#: assets/picker.js:52
+msgid "Load more"
+msgstr "Xem thêm"
+
+#: assets/picker.js:53
+msgid "Choose from Media Library / upload"
+msgstr "Chọn từ Thư viện ảnh / tải ảnh lên"
+
+#: assets/picker.js:82
+msgid "Searching…"
+msgstr "Đang tìm…"
+
+#: assets/picker.js:92
+msgid "No photos found. Try other keywords (English usually finds more)."
+msgstr ""
+"Không tìm thấy ảnh nào. Thử từ khoá khác (tiếng Anh thường ra nhiều hơn)."
+
+#: assets/picker.js:109
+msgid "Downloading the photo to the Media Library…"
+msgstr "Đang tải ảnh về Thư viện ảnh…"
+
+#: assets/picker.js:117
+msgid "Could not open the Media Library."
+msgstr "Không mở được Thư viện ảnh."
+
+#: assets/picker.js:118
+msgid "Choose an image"
+msgstr "Chọn ảnh"
+
+#: assets/picker.js:118
+msgid "Use this image"
+msgstr "Dùng ảnh này"
+
+#: assets/settings.js:81
+msgid "Reading the site design…"
+msgstr "Đang đọc giao diện site…"
+
+#. translators: %d: number of fields filled in.
+#: assets/settings.js:94
+#, js-format
+msgid "Filled in %d value. Check it, then click Save Changes."
+msgid_plural "Filled in %d values. Check them, then click Save Changes."
+msgstr[0] "Đã điền %d giá trị. Kiểm tra lại rồi bấm Lưu thay đổi."
+
+#: assets/settings.js:96
+msgid "Could not read the site design. Please enter the values manually."
+msgstr "Không đọc được giao diện site. Hãy nhập tay."
+
+#: assets/write.js:24
+msgid "Body"
+msgstr "Thân bài"
+
+#: assets/write.js:25
+msgid "FAQ"
+msgstr "Hỏi đáp"
+
+#: assets/write.js:26
+msgid "Conclusion"
+msgstr "Kết bài"
+
+#: assets/write.js:165
+msgid "Recreate outline"
+msgstr "Lên lại outline"
+
+#: assets/write.js:176
+msgid "Opening paragraphs, no heading"
+msgstr "Đoạn mở đầu, không có tiêu đề"
+
+#: assets/write.js:177
+msgid "Section heading (H2)"
+msgstr "Tiêu đề mục (H2)"
+
+#: assets/write.js:178
+msgid "words"
+msgstr "chữ"
+
+#: assets/write.js:180
+msgid "Move up"
+msgstr "Lên trên"
+
+#: assets/write.js:181
+msgid "Move down"
+msgstr "Xuống dưới"
+
+#: assets/write.js:182
+msgid "Delete section"
+msgstr "Xoá mục"
+
+#: assets/write.js:186
+msgid "Key points, one per line"
+msgstr "Ý chính, mỗi dòng một ý"
+
+#: assets/write.js:187
+msgid "Questions, one per line"
+msgstr "Câu hỏi, mỗi dòng một câu"
+
+#: assets/write.js:187
+msgid "H3 subheadings, one per line (optional)"
+msgstr "Tiêu đề phụ H3, mỗi dòng một tiêu đề (không bắt buộc)"
+
+#: assets/write.js:189
+msgid "Library images"
+msgstr "Ảnh có sẵn"
+
+#: assets/write.js:190
+msgid "Remove this image"
+msgstr "Bỏ ảnh này"
+
+#: assets/write.js:191
+msgid "+ Choose from Media Library"
+msgstr "+ Chọn từ Thư viện"
+
+#: assets/write.js:192
+msgid "Free photos"
+msgstr "Ảnh miễn phí"
+
+#: assets/write.js:192
+msgid ""
+"Photo search keywords (in English), separated by ; leave empty if no more "
+"photos are needed"
+msgstr ""
+"Từ khoá tìm ảnh (tiếng Anh), cách nhau bằng dấu ; để trống nếu không cần "
+"thêm ảnh"
+
+#. translators: 1: words in the outline, 2: target words, 3: number of images,
+#. 4: number of sections.
+#: assets/write.js:205
+#, js-format
+msgid ""
+"Total <strong>%1$s</strong> / ~%2$s words · %3$s images · %4$s sections"
+msgstr "Tổng <strong>%1$s</strong> / ~%2$s chữ · %3$s ảnh · %4$s mục"
+
+#: assets/write.js:271
+msgid "Choose library images for this section"
+msgstr "Chọn ảnh có sẵn cho mục này"
+
+#: assets/write.js:271
+msgid "Use these images"
+msgstr "Dùng các ảnh này"
+
+#: assets/write.js:307
+msgid "Preparing…"
+msgstr "Đang chuẩn bị…"
+
+#: assets/write.js:307 assets/write.js:316
+msgid "AI is creating the outline…"
+msgstr "AI đang lên outline…"
+
+#: assets/write.js:316
+msgid "AI is writing the post…"
+msgstr "AI đang viết bài…"
+
+#. translators: %s: number of characters received so far.
+#: assets/write.js:318
+#, js-format
+msgid "%s characters"
+msgstr "%s ký tự"
+
+#: assets/write.js:327
+msgid "Review and adjust it if needed, then click Write post and add images."
+msgstr "Xem và chỉnh nếu cần, rồi bấm Viết bài và chèn ảnh."
+
+#: assets/write.js:348 assets/write.js:355
+msgid "Enter the post title above first."
+msgstr "Hãy nhập tiêu đề bài ở trên trước."
+
+#: assets/write.js:349
+msgid "Create a new outline to replace the current one?"
+msgstr "Lên outline mới thay cho outline hiện tại?"
+
+#: assets/write.js:357
+msgid "Some sections have no heading."
+msgstr "Có mục chưa có tiêu đề."
+
+#: assets/write.js:360
+msgid ""
+"The finished post will replace all content currently in the editor. "
+"Continue?"
+msgstr ""
+"Bài viết xong sẽ thay toàn bộ nội dung đang có trong trình soạn thảo. Tiếp "
+"tục?"
+
+#: assets/write.js:373
+msgid ""
+"Review the post and edit it if needed (click an image in the list below to "
+"replace it), then click Convert to Smart Content."
+msgstr ""
+"Xem lại bài, sửa nếu cần (bấm vào ảnh ở danh sách bên dưới để đổi), rồi bấm "
+"Chuyển sang Smart Content."
+
+#: assets/write.js:376
+msgid ""
+"Review the post, then save it. To replace images: AI Writer > Images in this"
+" post."
+msgstr "Xem lại bài rồi lưu. Muốn đổi ảnh: bấm AI viết bài > Ảnh trong bài."
+
+#: assets/write.js:382
+msgid ""
+"Replace all content currently in the editor with the post the AI wrote?"
+msgstr ""
+"Thay toàn bộ nội dung đang có trong trình soạn thảo bằng bài AI đã viết?"
+
+#. translators: %s: number of words.
+#: assets/write.js:384
+#, js-format
+msgid "Inserted the post the AI wrote (~%s words)."
+msgstr "Đã chèn bài AI đã viết (~%s chữ)."
+
+#: assets/write.js:393
+msgid "Replace this image"
+msgstr "Đổi ảnh này"
+
+#: assets/write.js:393
+msgid "Replace"
+msgstr "Đổi"
+
+#: assets/write.js:427 assets/write.js:441
+msgid "AI Writer"
+msgstr "AI viết bài"

@@ -1,0 +1,1259 @@
+# Copyright (C) 2026 
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Content SEO 0.3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/smart-content-wp\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-21T05:54:47+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: smart-content-seo\n"
+
+#. Plugin Name of the plugin
+#: smart-content-seo.php
+msgid "Smart Content SEO"
+msgstr ""
+
+#. Description of the plugin
+#: smart-content-seo.php
+msgid "Write posts as usual (or let AI write them with free photos), then let AI (Claude, ChatGPT or Gemini) turn them into visually designed articles with their own HTML/CSS. Edit by leaving comments for the AI."
+msgstr ""
+
+#: includes/class-smc-admin.php:26
+#: includes/class-smc-settings.php:76
+msgid "Smart Content: Settings"
+msgstr ""
+
+#: includes/class-smc-admin.php:149
+msgid "Enter the post <strong>title</strong> above and fill in the fields below. The AI first creates an outline for you to review and adjust, then writes the post and inserts free stock photos into the editor. When it is done, review the post and click <strong>Convert to Smart Content</strong>."
+msgstr ""
+
+#: includes/class-smc-admin.php:151
+msgid "Post description"
+msgstr ""
+
+#: includes/class-smc-admin.php:152
+msgid "What the post is about, who it is for, and what readers should do after reading. Add your business details if you want the AI to use them (prices, services, service area...)."
+msgstr ""
+
+#: includes/class-smc-admin.php:154
+msgid "SEO keywords"
+msgstr ""
+
+#: includes/class-smc-admin.php:155
+msgid "Main keyword, secondary keyword, ..."
+msgstr ""
+
+#: includes/class-smc-admin.php:157
+msgid "Length"
+msgstr ""
+
+#: includes/class-smc-admin.php:165
+msgid "Prefer photos already in the Media Library when they suit the post (the AI looks at them and chooses), and only search free stock photos for the rest"
+msgstr ""
+
+#: includes/class-smc-admin.php:167
+#: assets/write.js:165
+msgid "Create outline"
+msgstr ""
+
+#: includes/class-smc-admin.php:176
+msgid "Rebalance to the target length"
+msgstr ""
+
+#: includes/class-smc-admin.php:178
+msgid "+ Add section"
+msgstr ""
+
+#: includes/class-smc-admin.php:181
+msgid "Write post and insert photos"
+msgstr ""
+
+#: includes/class-smc-admin.php:182
+msgid "Takes a few minutes. You can edit the outline (section titles, word counts, key points, photos) before writing."
+msgstr ""
+
+#: includes/class-smc-admin.php:187
+msgid "Insert the AI-written post into the editor"
+msgstr ""
+
+#: includes/class-smc-admin.php:191
+msgid "Photos in this post"
+msgstr ""
+
+#: includes/class-smc-admin.php:191
+msgid "Refresh"
+msgstr ""
+
+#: includes/class-smc-admin.php:192
+msgid "Click a photo to replace it with another free stock photo or a photo from the Media Library."
+msgstr ""
+
+#: includes/class-smc-admin.php:229
+msgid "Smart Content posts"
+msgstr ""
+
+#: includes/class-smc-admin.php:233
+msgid "Preview width"
+msgstr ""
+
+#: includes/class-smc-admin.php:234
+msgid "Desktop"
+msgstr ""
+
+#: includes/class-smc-admin.php:235
+msgid "Tablet"
+msgstr ""
+
+#: includes/class-smc-admin.php:236
+msgid "Mobile"
+msgstr ""
+
+#: includes/class-smc-admin.php:238
+msgid "Comment: highlight or click part of the post to pick what to change. Try it: click around as a reader would."
+msgstr ""
+
+#: includes/class-smc-admin.php:239
+msgid "Comment"
+msgstr ""
+
+#: includes/class-smc-admin.php:240
+msgid "Try it"
+msgstr ""
+
+#: includes/class-smc-admin.php:242
+msgid "The post content goes back to the version written in the editor before conversion"
+msgstr ""
+
+#: includes/class-smc-admin.php:242
+#: includes/class-smc-admin.php:341
+msgid "Revert to original post"
+msgstr ""
+
+#: includes/class-smc-admin.php:243
+msgid "Title, categories, featured image, permalink"
+msgstr ""
+
+#: includes/class-smc-admin.php:243
+#: includes/class-smc-admin.php:406
+msgid "Post details"
+msgstr ""
+
+#: includes/class-smc-admin.php:244
+msgid "View post"
+msgstr ""
+
+#: includes/class-smc-admin.php:246
+#: assets/admin.js:150
+msgid "Schedule"
+msgstr ""
+
+#: includes/class-smc-admin.php:248
+msgid "Publish date and time"
+msgstr ""
+
+#. translators: %s: site time zone, e.g. Asia/Ho_Chi_Minh.
+#: includes/class-smc-admin.php:253
+#, php-format
+msgid "In the site time zone (%s)."
+msgstr ""
+
+#: includes/class-smc-admin.php:256
+msgid "Schedule post"
+msgstr ""
+
+#: includes/class-smc-admin.php:259
+#: assets/admin.js:158
+msgid "Publish"
+msgstr ""
+
+#: includes/class-smc-admin.php:264
+msgid "Preview"
+msgstr ""
+
+#: includes/class-smc-admin.php:265
+msgid "This can take a few minutes. Do not close this page."
+msgstr ""
+
+#: includes/class-smc-admin.php:269
+msgid "Comments"
+msgstr ""
+
+#: includes/class-smc-admin.php:270
+msgid "Design"
+msgstr ""
+
+#: includes/class-smc-admin.php:271
+msgid "Versions"
+msgstr ""
+
+#: includes/class-smc-admin.php:275
+msgid "Highlight text (or click part of the post), write a comment and click <strong>Add comment</strong>. Do this for each thing to change, then click <strong>Ask AI to revise all</strong>. To replace a photo: click the photo, then <strong>Replace photo</strong>."
+msgstr ""
+
+#: includes/class-smc-admin.php:276
+msgid "Replace photo"
+msgstr ""
+
+#: includes/class-smc-admin.php:276
+msgid "Clear selection"
+msgstr ""
+
+#: includes/class-smc-admin.php:277
+msgid "For example: turn this part into a slider, make the heading stand out more, add a comparison table here."
+msgstr ""
+
+#: includes/class-smc-admin.php:278
+msgid "Add comment"
+msgstr ""
+
+#: includes/class-smc-admin.php:280
+msgid "Ask AI to revise all"
+msgstr ""
+
+#: includes/class-smc-admin.php:286
+#: includes/functions.php:12
+msgid "Primary color"
+msgstr ""
+
+#: includes/class-smc-admin.php:289
+#: includes/functions.php:13
+msgid "Accent color"
+msgstr ""
+
+#: includes/class-smc-admin.php:293
+msgid "Use the site colors again"
+msgstr ""
+
+#: includes/class-smc-admin.php:294
+msgid "Text handling"
+msgstr ""
+
+#: includes/class-smc-admin.php:296
+msgid "Keep my wording, only restyle it"
+msgstr ""
+
+#: includes/class-smc-admin.php:297
+msgid "Let the AI rewrite and expand"
+msgstr ""
+
+#: includes/class-smc-admin.php:299
+msgid "Design instructions (optional)"
+msgstr ""
+
+#: includes/class-smc-admin.php:300
+msgid "For example: show the process as a timeline, end with a contact block."
+msgstr ""
+
+#: includes/class-smc-admin.php:301
+#: includes/class-smc-admin.php:364
+#: includes/class-smc-jobs.php:143
+#: assets/admin.js:162
+#: assets/editor.js:17
+msgid "Convert to Smart Content"
+msgstr ""
+
+#: includes/class-smc-admin.php:305
+msgid "Each time the AI creates or revises the post, a version is saved that you can restore."
+msgstr ""
+
+#: includes/class-smc-admin.php:338
+msgid "The post content is edited in the Smart Content editor. Title, categories, featured image, publish date and so on are edited here as usual."
+msgstr ""
+
+#: includes/class-smc-admin.php:339
+msgid "Open Smart Content editor"
+msgstr ""
+
+#: includes/class-smc-admin.php:351
+msgid "AI Writer (Smart Content)"
+msgstr ""
+
+#: includes/class-smc-admin.php:363
+msgid "Once the post is written and has its photos, let the AI restyle it into a post with its own design."
+msgstr ""
+
+#: includes/class-smc-admin.php:365
+msgid "The post is saved before converting."
+msgstr ""
+
+#: includes/class-smc-admin.php:375
+msgid "Revert to original post: the post content goes back to exactly the version written in the editor before conversion; the AI design and its versions are deleted. Continue?"
+msgstr ""
+
+#: includes/class-smc-admin.php:387
+msgid "You are not allowed to edit this post."
+msgstr ""
+
+#: includes/class-smc-admin.php:390
+msgid "The AI is working on this post. Wait until it finishes, then try again."
+msgstr ""
+
+#: includes/class-smc-ai.php:63
+#: includes/class-smc-ai.php:148
+#: includes/class-smc-writer.php:575
+msgid "The AI returned an invalid format. Please try again."
+msgstr ""
+
+#. translators: %s: the AI's own one-sentence summary.
+#: includes/class-smc-ai.php:154
+#, php-format
+msgid "The AI did not change anything. %s"
+msgstr ""
+
+#: includes/class-smc-ai.php:165
+msgid "The AI could not locate the passage to change. Select the passage again and make your comment more specific."
+msgstr ""
+
+#. translators: %s: AI provider name, e.g. Google Gemini.
+#: includes/class-smc-ai.php:317
+#: includes/class-smc-rest.php:145
+#: includes/class-smc-rest.php:291
+#: includes/class-smc-rest.php:310
+#, php-format
+msgid "No %s API key yet. Enter it in Smart Content > Settings."
+msgstr ""
+
+#. translators: 1: AI provider name, 2: error message.
+#: includes/class-smc-ai.php:386
+#, php-format
+msgid "Could not connect to %1$s: %2$s"
+msgstr ""
+
+#. translators: 1: AI provider name, 2: model id, 3: error message from the provider.
+#: includes/class-smc-ai.php:398
+#, php-format
+msgid "The %1$s API key is invalid or not allowed to use the model %2$s. (%3$s)"
+msgstr ""
+
+#. translators: 1: model id, 2: AI provider name, 3: error message from the provider.
+#: includes/class-smc-ai.php:401
+#, php-format
+msgid "The model %1$s does not exist at %2$s. Check the model name in Settings. (%3$s)"
+msgstr ""
+
+#. translators: 1: AI provider name, 2: error message from the provider.
+#: includes/class-smc-ai.php:404
+#, php-format
+msgid "Your %1$s account has hit a limit (rate limit or free quota). Please try again in a few minutes. (%2$s)"
+msgstr ""
+
+#. translators: 1: AI provider name, 2: error message from the provider.
+#: includes/class-smc-ai.php:407
+#, php-format
+msgid "%1$s is overloaded. Please try again in a few minutes. (%2$s)"
+msgstr ""
+
+#: includes/class-smc-ai.php:415
+msgid "The AI refused to process this content."
+msgstr ""
+
+#: includes/class-smc-ai.php:418
+msgid "The post is too long, so the result was cut off. Shorten the content or split it into several posts."
+msgstr ""
+
+#: includes/class-smc-ai.php:421
+msgid "The AI returned no content. Please try again."
+msgstr ""
+
+#: includes/class-smc-ai.php:476
+#: includes/class-smc-ai.php:536
+msgid "Unknown error from the API."
+msgstr ""
+
+#: includes/class-smc-ai.php:534
+msgid "ChatGPT reported an error while processing."
+msgstr ""
+
+#: includes/class-smc-jobs.php:42
+msgid "The server stopped the task halfway (usually a hosting time limit). Please try again."
+msgstr ""
+
+#. translators: %d: number of outline sections.
+#: includes/class-smc-jobs.php:117
+#, php-format
+msgid "Outline ready: %d section."
+msgid_plural "Outline ready: %d sections."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of words, 2: number of images.
+#: includes/class-smc-jobs.php:135
+#, php-format
+msgid "Wrote about %1$s words and inserted %2$d image."
+msgid_plural "Wrote about %1$s words and inserted %2$d images."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-smc-jobs.php:143
+#: assets/admin.js:162
+msgid "Redesign"
+msgstr ""
+
+#: includes/class-smc-jobs.php:146
+msgid "Revised from comments"
+msgstr ""
+
+#: includes/class-smc-list.php:54
+msgid "This post is displayed with Smart Content"
+msgstr ""
+
+#: includes/class-smc-list.php:79
+#: assets/admin.js:206
+msgid "AI is working…"
+msgstr ""
+
+#: includes/class-smc-list.php:81
+msgid "No design yet"
+msgstr ""
+
+#: includes/class-smc-list.php:83
+msgid "New design awaiting review"
+msgstr ""
+
+#: includes/class-smc-list.php:85
+msgid "✓ Live"
+msgstr ""
+
+#: includes/class-smc-list.php:91
+msgid "Written by AI"
+msgstr ""
+
+#. translators: %s: approximate number of words in the post.
+#: includes/class-smc-list.php:93
+#, php-format
+msgid "~%s word, not converted"
+msgid_plural "~%s words, not converted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-smc-list.php:96
+msgid "Outline ready"
+msgstr ""
+
+#: includes/class-smc-list.php:147
+msgid "Written by AI, not converted"
+msgstr ""
+
+#: includes/class-smc-posts.php:175
+#: includes/class-smc-rest.php:375
+msgid "The new image is not valid."
+msgstr ""
+
+#: includes/class-smc-posts.php:179
+msgid "The old image was not found in the post."
+msgstr ""
+
+#: includes/class-smc-posts.php:192
+msgid "Image replaced"
+msgstr ""
+
+#: includes/class-smc-posts.php:273
+#: includes/class-smc-rest.php:273
+#: assets/editor.js:39
+#: assets/editor.js:57
+msgid "The post has no content yet."
+msgstr ""
+
+#: includes/class-smc-posts.php:308
+msgid "The scheduled time must be in the future."
+msgstr ""
+
+#: includes/class-smc-posts.php:338
+msgid "This post has no original version to revert to."
+msgstr ""
+
+#: includes/class-smc-render.php:54
+#: assets/picker.js:45
+#: assets/write.js:428
+msgid "Close"
+msgstr ""
+
+#: includes/class-smc-render.php:55
+msgid "Previous"
+msgstr ""
+
+#: includes/class-smc-render.php:56
+msgid "Next"
+msgstr ""
+
+#: includes/class-smc-rest.php:55
+#: includes/class-smc-rest.php:63
+msgid "Post not found."
+msgstr ""
+
+#: includes/class-smc-rest.php:66
+msgid "This post is already Smart Content. Revert it to the original post before letting the AI rewrite it."
+msgstr ""
+
+#: includes/class-smc-rest.php:148
+#: includes/class-smc-rest.php:182
+#: includes/class-smc-rest.php:199
+#: includes/class-smc-rest.php:294
+#: includes/class-smc-rest.php:313
+msgid "The AI is working on this post. Please wait until it finishes."
+msgstr ""
+
+#: includes/class-smc-rest.php:160
+msgid "The post has no content yet. Write it in the editor first."
+msgstr ""
+
+#: includes/class-smc-rest.php:196
+msgid "The post has no content to revise."
+msgstr ""
+
+#: includes/class-smc-rest.php:213
+msgid "No comments yet."
+msgstr ""
+
+#: includes/class-smc-rest.php:231
+#: includes/class-smc-rest.php:240
+msgid "Task not found."
+msgstr ""
+
+#: includes/class-smc-rest.php:252
+msgid "Version not found."
+msgstr ""
+
+#: includes/class-smc-rest.php:298
+#: includes/class-smc-rest.php:323
+msgid "Enter the post title first."
+msgstr ""
+
+#: includes/class-smc-rest.php:326
+msgid "The outline has no sections."
+msgstr ""
+
+#: includes/class-smc-rest.php:358
+msgid "You are not allowed to add images to this post."
+msgstr ""
+
+#: includes/class-smc-settings.php:80
+msgid "AI connection"
+msgstr ""
+
+#: includes/class-smc-settings.php:83
+msgid "AI provider"
+msgstr ""
+
+#: includes/class-smc-settings.php:90
+msgid "Post content and the photos you choose are sent to this provider for processing; usage is billed to the account of the key."
+msgstr ""
+
+#. translators: %s: AI provider name, e.g. Google Gemini.
+#: includes/class-smc-settings.php:101
+#, php-format
+msgid "%s API key"
+msgstr ""
+
+#. translators: %s: PHP constant name, e.g. SMC_API_KEY.
+#: includes/class-smc-settings.php:109
+#: includes/class-smc-settings.php:177
+#, php-format
+msgid "Using the key defined in <code>wp-config.php</code> (<code>%s</code>)."
+msgstr ""
+
+#: includes/class-smc-settings.php:114
+#: includes/class-smc-settings.php:182
+msgid "Saved. Leave empty to keep it."
+msgstr ""
+
+#: includes/class-smc-settings.php:114
+msgid "Paste your API key here"
+msgstr ""
+
+#: includes/class-smc-settings.php:116
+#: includes/class-smc-settings.php:184
+msgid "Delete saved key"
+msgstr ""
+
+#. translators: %s: link to the provider page where the API key is created.
+#: includes/class-smc-settings.php:122
+#, php-format
+msgid "Get a key at %s."
+msgstr ""
+
+#: includes/class-smc-settings.php:132
+msgid "Model"
+msgstr ""
+
+#: includes/class-smc-settings.php:149
+msgid "When a new model comes out, type its exact model ID here."
+msgstr ""
+
+#: includes/class-smc-settings.php:157
+msgid "Reasoning effort"
+msgstr ""
+
+#: includes/class-smc-settings.php:160
+msgid "Low (faster, cheaper)"
+msgstr ""
+
+#: includes/class-smc-settings.php:161
+msgid "Medium"
+msgstr ""
+
+#: includes/class-smc-settings.php:162
+msgid "High (slower, costs more)"
+msgstr ""
+
+#: includes/class-smc-settings.php:168
+msgid "Free stock photos for AI-written posts"
+msgstr ""
+
+#: includes/class-smc-settings.php:171
+msgid "Pexels API key"
+msgstr ""
+
+#: includes/class-smc-settings.php:182
+msgid "Optional"
+msgstr ""
+
+#. translators: %s: link to pexels.com/api.
+#: includes/class-smc-settings.php:190
+#, php-format
+msgid "Recommended: Pexels has far more and better photos. Get a free key at %s."
+msgstr ""
+
+#: includes/class-smc-settings.php:194
+msgid "Without a key the plugin searches Openverse and only takes CC0 and public domain photos (free to use, no attribution required)."
+msgstr ""
+
+#: includes/class-smc-settings.php:195
+msgid "Photos are downloaded to the site's Media Library; the author and source are noted in the photo description."
+msgstr ""
+
+#: includes/class-smc-settings.php:202
+msgid "Site style"
+msgstr ""
+
+#: includes/class-smc-settings.php:204
+msgid "The AI uses these values so posts match the site design. Changing them here updates every published Smart Content post."
+msgstr ""
+
+#: includes/class-smc-settings.php:205
+msgid "Detect from site"
+msgstr ""
+
+#: includes/class-smc-settings.php:222
+msgid "Content column width (px)"
+msgstr ""
+
+#: includes/class-smc-settings.php:226
+msgid "Style description"
+msgstr ""
+
+#: includes/class-smc-settings.php:228
+msgid "For example: minimal, lots of white space, square corners, no shadows. Friendly tone."
+msgstr ""
+
+#: includes/class-smc-settings.php:229
+msgid "Optional. A few sentences about the site's design taste; the AI will follow it."
+msgstr ""
+
+#. translators: %s: error message.
+#: includes/class-smc-stock.php:47
+#, php-format
+msgid "Could not connect to the photo source: %s"
+msgstr ""
+
+#: includes/class-smc-stock.php:51
+msgid "The photo source refused access. Check the Pexels key in Settings."
+msgstr ""
+
+#: includes/class-smc-stock.php:54
+msgid "The photo source is rate limiting searches. Please try again in a few minutes."
+msgstr ""
+
+#. translators: %d: HTTP status code.
+#: includes/class-smc-stock.php:59
+#, php-format
+msgid "The photo source returned error %d."
+msgstr ""
+
+#: includes/class-smc-stock.php:151
+msgid "Invalid photo."
+msgstr ""
+
+#: includes/class-smc-stock.php:186
+msgid "This photo cannot be downloaded."
+msgstr ""
+
+#. translators: %s: photo source, Pexels or Openverse.
+#: includes/class-smc-stock.php:206
+#, php-format
+msgid "Could not download the photo from %s."
+msgstr ""
+
+#: includes/class-smc-stock.php:217
+msgid "The downloaded file is not a JPG, PNG or WebP image."
+msgstr ""
+
+#. translators: 1: photographer name, 2: photo source (Pexels or Openverse), 3: license, 4: link to the photo page.
+#: includes/class-smc-stock.php:224
+#, php-format
+msgid "Photo: %1$s / %2$s (%3$s) %4$s"
+msgstr ""
+
+#: includes/class-smc-stock.php:225
+msgid "unknown author"
+msgstr ""
+
+#: includes/class-smc-writer.php:182
+msgid "The AI returned an invalid outline. Please try again."
+msgstr ""
+
+#: includes/class-smc-writer.php:335
+#: assets/write.js:23
+msgid "Introduction"
+msgstr ""
+
+#. translators: 1: current photo number, 2: total number of photos.
+#: includes/class-smc-writer.php:407
+#, php-format
+msgid "Finding and downloading free stock photos (%1$d/%2$d)…"
+msgstr ""
+
+#: includes/class-smc-writer.php:418
+msgid "The AI is writing the post…"
+msgstr ""
+
+#: includes/class-smc-writer.php:456
+msgid "The AI returned an empty post. Please try again."
+msgstr ""
+
+#: includes/functions.php:14
+msgid "Text color"
+msgstr ""
+
+#: includes/functions.php:15
+msgid "Page background"
+msgstr ""
+
+#: includes/functions.php:16
+msgid "Muted text color"
+msgstr ""
+
+#: includes/functions.php:17
+msgid "Block background"
+msgstr ""
+
+#: includes/functions.php:18
+msgid "Border color"
+msgstr ""
+
+#: includes/functions.php:19
+msgid "Corner radius"
+msgstr ""
+
+#: includes/functions.php:20
+msgid "Heading font"
+msgstr ""
+
+#: includes/functions.php:21
+msgid "Body font"
+msgstr ""
+
+#: includes/functions.php:37
+msgid "Claude Opus 5.5 (highest quality)"
+msgstr ""
+
+#: includes/functions.php:38
+msgid "Claude Sonnet 5.5 (faster and cheaper)"
+msgstr ""
+
+#: includes/functions.php:39
+msgid "Claude Haiku 5.5 (cheapest)"
+msgstr ""
+
+#: includes/functions.php:43
+#: includes/functions.php:57
+msgid "Pay as you go; you need to buy credit first."
+msgstr ""
+
+#: includes/functions.php:51
+msgid "GPT-6 Astra (highest quality)"
+msgstr ""
+
+#: includes/functions.php:52
+msgid "GPT-6.1 Sol (balanced quality and price)"
+msgstr ""
+
+#: includes/functions.php:53
+msgid "GPT-6 Luna (cheapest)"
+msgstr ""
+
+#: includes/functions.php:65
+msgid "Gemini 4 Argon (highest quality, paid)"
+msgstr ""
+
+#: includes/functions.php:66
+msgid "Gemini 3.1 Pro Preview (paid)"
+msgstr ""
+
+#: includes/functions.php:67
+msgid "Gemini 3.8 Flash (free tier available)"
+msgstr ""
+
+#: includes/functions.php:68
+msgid "Gemini 3.6 Flash (free tier available)"
+msgstr ""
+
+#: includes/functions.php:69
+msgid "Gemini 3.5 Flash-Lite (free tier available, fastest)"
+msgstr ""
+
+#: includes/functions.php:73
+msgid "Flash models have a free tier (rate limited; on the free tier Google may use the data you send to improve its products). Pro and Argon are paid only."
+msgstr ""
+
+#. translators: %s: number of words, e.g. 1,800.
+#: includes/functions.php:152
+#, php-format
+msgid "~%s words"
+msgstr ""
+
+#. translators: %d: HTTP status code.
+#: assets/admin.js:46
+#: assets/picker.js:24
+#: assets/write.js:44
+#, js-format
+msgid "The server returned error %d."
+msgstr ""
+
+#: assets/admin.js:99
+msgid "Whole post"
+msgstr ""
+
+#: assets/admin.js:100
+msgid "Remove"
+msgstr ""
+
+#. translators: %d: number of comments.
+#: assets/admin.js:105
+#, js-format
+msgid "Ask AI to revise all (%d)"
+msgstr ""
+
+#: assets/admin.js:105
+msgid "Ask AI to revise"
+msgstr ""
+
+#. translators: %s: alt text of the selected image.
+#: assets/admin.js:115
+#, js-format
+msgid "image \"%s\""
+msgstr ""
+
+#: assets/admin.js:115
+msgid "image"
+msgstr ""
+
+#. translators: %s: the selected text or element.
+#: assets/admin.js:118
+#, js-format
+msgid "Selected: %s"
+msgstr ""
+
+#: assets/admin.js:129
+msgid "Replacing image…"
+msgstr ""
+
+#: assets/admin.js:134
+msgid "Image replaced. Click Update post to put it on the site."
+msgstr ""
+
+#: assets/admin.js:134
+#: assets/write.js:406
+msgid "Image replaced."
+msgstr ""
+
+#: assets/admin.js:143
+msgid "(No title)"
+msgstr ""
+
+#: assets/admin.js:150
+msgid "Reschedule"
+msgstr ""
+
+#: assets/admin.js:152
+msgid "Showing the original post"
+msgstr ""
+
+#: assets/admin.js:152
+msgid "Unpublished changes"
+msgstr ""
+
+#: assets/admin.js:152
+msgid "Published"
+msgstr ""
+
+#: assets/admin.js:153
+msgid "Update post"
+msgstr ""
+
+#. translators: %s: scheduled date and time.
+#: assets/admin.js:157
+#, js-format
+msgid "Scheduled: %s"
+msgstr ""
+
+#: assets/admin.js:157
+msgid "Draft"
+msgstr ""
+
+#: assets/admin.js:158
+msgid "Publish now"
+msgstr ""
+
+#: assets/admin.js:166
+msgid "Color changes apply instantly. Redesign makes the AI start again from your original post, so changes made through comments are lost (the old version stays in the Versions tab)."
+msgstr ""
+
+#: assets/admin.js:167
+msgid "The AI reads the post and images you wrote, then presents them as an article with its own design. Your original post is kept, so you can go back at any time."
+msgstr ""
+
+#: assets/admin.js:171
+msgid "Current"
+msgstr ""
+
+#: assets/admin.js:171
+msgid "Restore"
+msgstr ""
+
+#: assets/admin.js:172
+msgid "No versions yet."
+msgstr ""
+
+#. translators: %s: error message.
+#: assets/admin.js:222
+#: assets/write.js:312
+#, js-format
+msgid "The server could not run the task: %s"
+msgstr ""
+
+#. translators: %s: number of characters written so far.
+#: assets/admin.js:228
+#, js-format
+msgid "AI is writing… %s characters"
+msgstr ""
+
+#: assets/admin.js:228
+msgid "AI is reading the post and planning the layout…"
+msgstr ""
+
+#: assets/admin.js:233
+#: assets/write.js:322
+msgid "Something went wrong while processing."
+msgstr ""
+
+#. translators: %s: summary of the changes the AI made.
+#: assets/admin.js:239
+#, js-format
+msgid "Revised: %s"
+msgstr ""
+
+#: assets/admin.js:241
+msgid "The post is now Smart Content. Highlight anything you want changed to leave a comment, or publish the post."
+msgstr ""
+
+#: assets/admin.js:253
+#: assets/write.js:338
+msgid "No API key yet. Go to Smart Content > Settings to add one."
+msgstr ""
+
+#: assets/admin.js:254
+msgid "The AI will redesign from the original post. Changes made through comments will be lost; the current version stays in the Versions tab. Continue?"
+msgstr ""
+
+#: assets/admin.js:256
+#: assets/admin.js:295
+#: assets/write.js:340
+msgid "Sending…"
+msgstr ""
+
+#: assets/admin.js:269
+msgid "Revert to original post: the post content goes back to exactly what was written in the editor before converting; the AI design and its versions are deleted. Continue?"
+msgstr ""
+
+#: assets/admin.js:270
+msgid "Reverting to the original post…"
+msgstr ""
+
+#. translators: %d: number of comments not yet sent.
+#: assets/admin.js:306
+#, js-format
+msgid "%d comment has not been sent to the AI yet. Continue anyway?"
+msgid_plural "%d comments have not been sent to the AI yet. Continue anyway?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/admin.js:308
+msgid "Scheduling…"
+msgstr ""
+
+#: assets/admin.js:308
+msgid "Publishing…"
+msgstr ""
+
+#. translators: %s: scheduled date and time.
+#: assets/admin.js:315
+#, js-format
+msgid "The post will be published automatically at %s."
+msgstr ""
+
+#: assets/admin.js:315
+msgid "The post on the site has been updated."
+msgstr ""
+
+#: assets/admin.js:315
+msgid "The post has been published."
+msgstr ""
+
+#: assets/admin.js:376
+msgid "Version restored. Click Update post to put it on the site."
+msgstr ""
+
+#: assets/admin.js:376
+msgid "Version restored."
+msgstr ""
+
+#: assets/editor.js:26
+msgid "This post is live on the site and has unsaved changes. Save (update the post) and then convert to Smart Content?"
+msgstr ""
+
+#: assets/editor.js:44
+msgid "Saving the post…"
+msgstr ""
+
+#: assets/editor.js:48
+msgid "Could not save the post. Save it, then click again."
+msgstr ""
+
+#: assets/picker.js:44
+#: assets/picker.js:45
+msgid "Replace image"
+msgstr ""
+
+#: assets/picker.js:46
+msgid "Search photos, e.g. modern house facade"
+msgstr ""
+
+#: assets/picker.js:48
+msgid "Search"
+msgstr ""
+
+#: assets/picker.js:49
+msgid "Free photos, fine for commercial use. Searching in English usually finds more photos."
+msgstr ""
+
+#: assets/picker.js:52
+msgid "Load more"
+msgstr ""
+
+#: assets/picker.js:53
+msgid "Choose from Media Library / upload"
+msgstr ""
+
+#: assets/picker.js:82
+msgid "Searching…"
+msgstr ""
+
+#: assets/picker.js:92
+msgid "No photos found. Try other keywords (English usually finds more)."
+msgstr ""
+
+#: assets/picker.js:109
+msgid "Downloading the photo to the Media Library…"
+msgstr ""
+
+#: assets/picker.js:117
+msgid "Could not open the Media Library."
+msgstr ""
+
+#: assets/picker.js:118
+msgid "Choose an image"
+msgstr ""
+
+#: assets/picker.js:118
+msgid "Use this image"
+msgstr ""
+
+#: assets/settings.js:81
+msgid "Reading the site design…"
+msgstr ""
+
+#. translators: %d: number of fields filled in.
+#: assets/settings.js:94
+#, js-format
+msgid "Filled in %d value. Check it, then click Save Changes."
+msgid_plural "Filled in %d values. Check them, then click Save Changes."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/settings.js:96
+msgid "Could not read the site design. Please enter the values manually."
+msgstr ""
+
+#: assets/write.js:24
+msgid "Body"
+msgstr ""
+
+#: assets/write.js:25
+msgid "FAQ"
+msgstr ""
+
+#: assets/write.js:26
+msgid "Conclusion"
+msgstr ""
+
+#: assets/write.js:165
+msgid "Recreate outline"
+msgstr ""
+
+#: assets/write.js:176
+msgid "Opening paragraphs, no heading"
+msgstr ""
+
+#: assets/write.js:177
+msgid "Section heading (H2)"
+msgstr ""
+
+#: assets/write.js:178
+msgid "words"
+msgstr ""
+
+#: assets/write.js:180
+msgid "Move up"
+msgstr ""
+
+#: assets/write.js:181
+msgid "Move down"
+msgstr ""
+
+#: assets/write.js:182
+msgid "Delete section"
+msgstr ""
+
+#: assets/write.js:186
+msgid "Key points, one per line"
+msgstr ""
+
+#: assets/write.js:187
+msgid "Questions, one per line"
+msgstr ""
+
+#: assets/write.js:187
+msgid "H3 subheadings, one per line (optional)"
+msgstr ""
+
+#: assets/write.js:189
+msgid "Library images"
+msgstr ""
+
+#: assets/write.js:190
+msgid "Remove this image"
+msgstr ""
+
+#: assets/write.js:191
+msgid "+ Choose from Media Library"
+msgstr ""
+
+#: assets/write.js:192
+msgid "Free photos"
+msgstr ""
+
+#: assets/write.js:192
+msgid "Photo search keywords (in English), separated by ; leave empty if no more photos are needed"
+msgstr ""
+
+#. translators: 1: words in the outline, 2: target words, 3: number of images, 4: number of sections.
+#: assets/write.js:205
+#, js-format
+msgid "Total <strong>%1$s</strong> / ~%2$s words · %3$s images · %4$s sections"
+msgstr ""
+
+#: assets/write.js:271
+msgid "Choose library images for this section"
+msgstr ""
+
+#: assets/write.js:271
+msgid "Use these images"
+msgstr ""
+
+#: assets/write.js:307
+msgid "Preparing…"
+msgstr ""
+
+#: assets/write.js:307
+#: assets/write.js:316
+msgid "AI is creating the outline…"
+msgstr ""
+
+#: assets/write.js:316
+msgid "AI is writing the post…"
+msgstr ""
+
+#. translators: %s: number of characters received so far.
+#: assets/write.js:318
+#, js-format
+msgid "%s characters"
+msgstr ""
+
+#: assets/write.js:327
+msgid "Review and adjust it if needed, then click Write post and add images."
+msgstr ""
+
+#: assets/write.js:348
+#: assets/write.js:355
+msgid "Enter the post title above first."
+msgstr ""
+
+#: assets/write.js:349
+msgid "Create a new outline to replace the current one?"
+msgstr ""
+
+#: assets/write.js:357
+msgid "Some sections have no heading."
+msgstr ""
+
+#: assets/write.js:360
+msgid "The finished post will replace all content currently in the editor. Continue?"
+msgstr ""
+
+#: assets/write.js:373
+msgid "Review the post and edit it if needed (click an image in the list below to replace it), then click Convert to Smart Content."
+msgstr ""
+
+#: assets/write.js:376
+msgid "Review the post, then save it. To replace images: AI Writer > Images in this post."
+msgstr ""
+
+#: assets/write.js:382
+msgid "Replace all content currently in the editor with the post the AI wrote?"
+msgstr ""
+
+#. translators: %s: number of words.
+#: assets/write.js:384
+#, js-format
+msgid "Inserted the post the AI wrote (~%s words)."
+msgstr ""
+
+#: assets/write.js:393
+msgid "Replace this image"
+msgstr ""
+
+#: assets/write.js:393
+msgid "Replace"
+msgstr ""
+
+#: assets/write.js:427
+#: assets/write.js:441
+msgid "AI Writer"
+msgstr ""
